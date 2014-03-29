@@ -1,0 +1,24 @@
+integrating d3 with js web-dev toolkits like anuglar.js
+
+Pitches: Angular.js
+angular's abstraction is elegant (like d3)
+	e.g. can create custom html tags in angular, eg <my-map><my-map>
+
+
+Pitches: Ember.js
+Use case is 20 people each week working on codebase.  Revolving set of 20.
+	Frameworks are useful for teams of large people and provides a common vocabulary and language for developers on a team.
+
+Pitches: bootstrap
+Helpful, but looks the same.  However, you can use the LESS files and compile a boostrappy base (grid layout, for example) instead of undoing styles in css.
+
+Pitches: backbone.js
+Interactive webapps has routers.  routers and urls are managed for you.
+backbone is built on underscore.  
+
+Challenge with framwork integration: rendering lifecycles (d3 and backbone are rendered differently at different times, so this is a problem to solve and synchronize).
+
+Pitches: underscore.js
+	ability to chain functions. (duplicate functionality exists within d3)
+
+Who owns the DOM?  D3 is great for transitioning DOM.  Frameworks can be great for handling the model and D3 for the view.
