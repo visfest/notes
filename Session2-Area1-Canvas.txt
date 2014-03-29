@@ -1,0 +1,9 @@
+Use canvas to render a ton of data points (20000, 200000 and so on).  With 200000 random rects, canvas still has some latency (less than a second).  SVG will lag a lot more.
+
+Interactivity (hover): can use a hidden canvas to remap mouse points to lat/long, map those to a hidden canvas that has each country in a different share of red (for example), figure out the pixel color, map back to the country and then select it in the main canvas.
+
+Interactivity can also be achieved using d3.quadtree
+
+Interaction is tricky with canvas.  There are some libraries that can also help.  There is no path generator like in svg, but drawing a path in canvas is straightforward.
+
+
