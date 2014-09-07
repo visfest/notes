@@ -1,7 +1,7 @@
 # Overview
  Filters allow for additional visual effects, such as blur. The most obvious use of filters is to enhance a visualization's aesthetics, or o create data "art." Filters can be used as their own dimension for encoding data - for example, accuracy, precision, or confidence could e represented by a blur filter; the strength of the blur representing the confidence of the data.
  
- Most things you can do in photoshop for filter effects you can do with SVG. [Inkscape](http://www.inkscape.org/en/) can help you xperiment/play with filters with a UI before going for code.
+ Most things you can do in photoshop for filter effects you can do with SVG. [Inkscape](http://www.inkscape.org/en/) can help you experiment/play with filters with a UI before going for code.
  
  
  All the inkscape filters can be done in svg. Inkscape was built to do standardized SVG.  Illustrator was built before standardized SVG -  lot of the illustrator filters are not in the specification and will just be rasterized.
